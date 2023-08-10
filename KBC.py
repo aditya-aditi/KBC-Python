@@ -6,7 +6,7 @@ print("Welcome to KBC \nYou will get questions and you have to give the correct 
 
 score = 0
 
-for i in range(10000000):
+for i in range(len(questions)+1):
     # print(i)
     while i != 7 :
         print(questions[i])
